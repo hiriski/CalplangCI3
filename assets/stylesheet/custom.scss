@@ -1,0 +1,569 @@
+$primary-font : 'HK Grotesk', sans-serif;
+$primary-color: #DAA520;
+* {
+  outline: none !important;
+}
+body {
+    font-family: $primary-font !important;
+}
+.navbar-right {
+    margin-top: 13px;
+    li {
+        padding: 0 !important;
+        a {
+            padding: 8px 16px !important;
+            background: #fbfbfb;
+            border-radius: 5px;
+            color: #444 !important;
+            &:hover {
+                background-color: $primary-color !important;
+                color:#fff !important;
+            }
+        }
+    }
+
+}
+.dp {
+    i {
+        font-size: 12px;
+        margin-top: 4px;
+    }
+}
+#logo {
+    margin-top: 18px;
+    a {
+        padding: 0 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+            color: #fff;
+        }
+    }
+    img {
+        width: 32px;
+        height: auto;
+        float: left;
+    }
+}
+.s-hero {
+    margin-bottom: 20px !important;
+    font-weight: bold !important;
+}
+.hero-logo {
+    text-align: center;
+    img {
+        width: 50px;
+        height: auto;
+        margin: auto;
+    }
+}
+#nav {
+    position: fixed;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    background: rgba(0, 0, 0, 0.38);
+    &[header-style="fixed"] {
+        background: #DAA520;
+    }
+    #logo {
+        margin-top: 8px;
+    }
+    .navbar-right {
+        margin-top: 15px;
+    }
+}
+#sambutan {
+    .kata-sambutan {
+        padding: 100px 200px;
+        background-color: #fff;
+        border-radius: 3px;
+        margin-top: -165px;
+        h2 {
+            font-size: 34px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        p {
+            font-size: 19px;
+            line-height: 33px;
+            margin-bottom: 15px;
+        }
+        .salam {
+            margin-top: 32px;
+        }
+    }
+}
+.mgs {
+    margin-bottom: 0 !important;
+}
+.contactForm {
+    width: 600px;
+    margin: auto;
+}
+#submit {
+    color: #fff;
+    width: 100%;
+    padding: 10px 20px;
+    background: #daa520;
+    font-size: 18px;
+    font-weight: bold;
+    &:after {
+        font-family: "hustbee" !important;
+        content: "\63";
+        color: #fff;
+        margin-left: 5px;
+        vertical-align: middle;
+        font-weight: 400;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+}
+.ic_img {
+    height: 128px;
+    img {
+        width: 240px;
+        height: auto;
+    }
+}
+.slide1 {
+    background-image: url("../caplang-img/hero/4.jpg");
+    background-size: cover;
+}
+.slide2 {
+    background-image: url("../caplang-img/hero/7.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+.slide3 {
+    background-image: url("../caplang-img/hero/5.jpg");
+    background-size: cover;
+}
+.slide4 {
+    background-image: url("../caplang-img/hero/1.jpg");
+    background-size: cover;
+}
+.slide5 {
+    background-image: url("../caplang-img/hero/4.jpg");
+    background-size: cover;
+}
+.slide6{
+    background-image: url("../caplang-img/hero/3.jpg");
+    background-size: cover;
+}
+.slide7 {
+    background-image: url("../caplang-img/hero/2.jpg");
+    background-size: cover;
+}
+.service-item {
+    display: inline-block;
+    padding: 50px 72px;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 740px;
+}
+.main-heading {
+    margin-bottom: 38px;
+    img {
+        vertical-align: middle;
+        width: 30px;
+        height: auto;
+        margin-right: 8px;
+    }
+    h2 {
+        font-weight: bold;
+        font-size: 36px;
+        position: relative
+        }
+    p {
+        font-size: 20px;
+    }
+}
+.pageTitle {
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.hero-left {
+    padding-bottom: 100px;
+}
+.greeting-about-page p {
+    font-size: 17px !important;
+}
+.hylink-box {
+    max-width: 100%;
+}
+#sub-menu-about {
+    padding: 40px 0px;
+    .container {
+        width: 960px;
+    }
+    background: #eaf2fe;
+    .hylink-box .icon {
+        width: 52px;
+        height: 52px;
+        img {
+            width: 28px;
+        }
+    }
+    .support-links > .row .hylink-holder:first-child, .support-links > .row .hylink-holder {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .hylink-box {
+        padding: 15px 15px 15px 72px;
+        a {
+            line-height: 1;
+            font-size: 17px;
+        }
+        .icon {
+            background:none;
+            box-shadow:none;
+        }
+    }
+}
+.sambutan {
+    .img-holder {
+        padding-top: 72px;
+    }
+}
+.section-jajaran {
+    .img-holder {
+        padding-top: 50px;
+    }
+}
+.salam {
+    margin-top: 32px;
+}
+
+#visi-misi {
+    background:#fbfbfb;
+    padding-top: 100px;
+    .pull-top {
+        margin-top: 0;
+    }
+    .visi,
+    .misi {
+        height: 330px;
+        text-align: left;
+        .pricing-title {
+            text-align: center;
+            font-weight: bold;
+        }
+        .c {
+            font-size: 17px;
+            ol {
+                li {
+                    margin-bottom: 12px;
+                }
+            }
+            p {
+                padding: 20px;
+                font-size: 22px;
+            }
+        }
+    }
+}
+#jajaran-direksi,
+#jajaran-komisaris {
+    background: #fff;
+    padding-top: 100px;
+    .feature-title {
+        font-size: 30px !important;
+        margin-bottom: 0 !important;
+    }
+    .name {
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .desc {
+        font-weight: 500 !important;
+        font-size: 18px !important;
+        line-height: 33px;
+    }
+    .img-holder img {
+        width: 100%;
+        border-radius: 22px;
+    }
+    .feature-info {
+        padding: 105px 0;
+    }
+    .main-heading {
+
+        margin-left: 72px;
+    
+        &:after {
+            content: "";
+            position: absolute;
+            width: 6%;
+            height: 2px;
+            background: #DAA520;
+        }
+        h2 {
+            color: #DAA520;
+        }
+    }
+}
+#jajaran-direksi {
+    border-top: 1px solid #d2d2d2;
+}
+#legalitas {
+    text-align: center;
+    .main-heading {
+        text-align:center;
+    }
+    .legalitywrap {
+        width:720px;
+        margin:auto;
+        float:none;
+    }
+    padding-top: 100px;
+    .legality {
+        padding: 22px;
+        border: 2px solid #DAA520;
+        border-radius: 10px;
+        margin-bottom: 24px;
+        background:#fff;
+        .c {
+            font-size:19px;
+            h5 {
+                font-size:21px;
+                font-weight: bold;
+            }
+            text-align:left;
+            position: relative;
+            padding-left: 40px;
+            &:before {
+                font-family: "hustbee" !important;
+                content: "\64";
+                color: #DAA520;
+                position: absolute;
+                left: 0;
+                top: 0px;
+            }
+        }
+    }
+}
+
+.contact-us {
+    padding-top: 0 !important;
+    margin-top: -60px;
+    .form-holder {
+        padding: 32px 0;
+        background-color: #fff;
+        border-radius: 5px;
+        margin-top: -100px;
+        -webkit-box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.08);
+        -moz-box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.05);
+        box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.08);
+        .main-heading {
+            text-align: center;
+        }
+    }
+}
+.support-details.ct {
+    padding-bottom: 100px;
+}
+nav.navbar .navbar-nav > li {
+    margin-bottom: 3px;
+}
+.produk ol {
+    padding-left: 23px;
+    li {
+        font-size: 19px;
+    }
+}
+#pageNotFound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.upss {
+    text-align: center;
+    width: 500px;
+}
+.upss span {
+    font-size: 72px;
+    margin-bottom: 12px;
+    font-weight: 300;
+}
+._inlineBlock {
+    width: 100%;
+    display: inline-block;
+}
+.upss h1 {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+@media screen and (max-width:640px) {
+    sub-menu-about .support-links > .row .hylink-holder:first-child, #sub-menu-about .support-links > .row .hylink-holder {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #jajaran-direksi .main-heading,
+    #jajaran-komisaris .main-heading {
+        margin-left: 0;
+        text-align:center;
+    }
+    #jajaran-direksi .feature-info,
+    #jajaran-komisaris .feature-info {
+        padding: 14px 0px 76px 0px;
+    }
+    #jajaran-direksi .feature-title,
+    #jajaran-komisaris .feature-title {
+        font-size: 25px !important;
+        margin-bottom: 3px !important;
+        text-align:center;
+    }
+    #jajaran-direksi .name, #jajaran-komisaris .name {
+        text-align:center;
+    }
+    .section-jajaran .img-holder {
+        padding-bottom: 0;
+    }
+    .greeting-about-page p {
+        font-size: 17px !important;
+        line-height: 26px;
+    }
+    #sambutan {
+        .col-sm-12 {
+            padding: 0;
+        }
+        .kata-sambutan {
+            margin-top: 0;
+        }
+    }
+    .hero-left {
+        padding-bottom: 70px;
+        padding-top: 52px;
+    }
+    #nav {
+        background:#DAA520 !important;
+    }
+    nav.navbar .navbar-collapse {
+        margin-bottom: 20px;
+    }
+    #sub-menu-about .container,
+    .service-item {
+        width: 100%;
+    }
+    #sambutan .kata-sambutan {
+        padding: 20px;
+    }
+    nav.navbar .navbar-toggle {
+        margin-top: 15px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    #nav #logo {
+        margin-top: 5px;
+    }
+    .support-box .icon {
+        width: 60px;
+        height: 60px;
+    }
+    .support-box {
+        padding: 0 30px 0 78px;
+    }
+    .main-heading h2 {
+        font-weight: bold;
+        font-size: 26px !important;
+    }
+    .main-heading img {
+        width: 24px;
+    }
+    .contactForm {
+        width: 90%;
+    }
+    #sambutan .kata-sambutan p {
+        font-size: 17px;
+        line-height: 27px;
+    }
+    .service-item {
+        display: inline-block;
+        padding: 30px 12px;
+    }
+    .hylink-box {
+        padding: 16px 12px 12px 52px !important;
+    }
+    .hylink-box .icon {
+        width: 42px;
+        height: 42px;
+    }
+    .ic_img img {
+        width: 171px;
+        height: auto;
+    }
+    .hylink-box {
+        padding: 3px 12px 12px 52px !important;
+    }
+    .ic_img {
+        height: auto !important;
+    }
+    nav#nav .col-md-12 {
+        padding: 0 !important;
+    }
+    .slide > * {
+        text-align: center;
+    }
+    #legalitas .legalitywrap {
+        width: 100%;
+        .c {
+            padding-left: 28px;
+            font-size: 17px;
+            line-height:24px;
+        }
+        h5 {
+            font-size: 17px;
+            font-weight: bold;
+            line-height: 27px;
+        }
+    }
+    #visi-misi .visi, #visi-misi .misi {
+        height: auto;
+    }
+    .service-item.produk {
+        width: 100%;
+    }
+    .produk ol li {
+        font-size: 16px;
+    }
+    .pageTitle {
+        font-size: 30px;
+    }
+    .copyright {
+        margin-top: 25px;
+    }
+    .sub-footer .sub-footer-menu ul li a {
+        line-height: 33px;
+    }
+}
+nav.navbar .navbar-nav > li.dropdown .dropdown-menu {
+    border-radius: 3px;
+    background-color: #fff;
+}
+nav.navbar .navbar-nav > li.dropdown .dropdown-menu .dropdown-item {
+    font-size: 16px;
+    font-weight: 500;
+    color: #111a2b;
+    padding: 10px 28px;
+}
+.btn-go-top {
+    z-index: 100;
+}
+.feature-info {
+    &.komisaris {
+        text-align: center !important;
+        > div {
+            margin-bottom: 36px;
+        }
+    }
+}

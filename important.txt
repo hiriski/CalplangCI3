@@ -1,0 +1,7 @@
+Username : admin@caplang.co.id
+Password : the*******
+
+Database : 
+Database Name   : caplangc_newcaplang
+Username        : caplangc_dev
+Database Password : CaplangCodeigniter
