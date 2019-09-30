@@ -1,7 +1,7 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
    
-<div id="header-holder" class="innerpage about lighter">
+<div id="header-holder" class="innerpage about visi-misi lighter">
 
     <div id="top-content" class="container-fluid">
         <div class="container">
@@ -55,30 +55,6 @@
                         </div>
                     </div>
                 </div>            
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="vm-img">
-    <div class="container">
-        <div class="vm-img">
-            <div class="row">
-                <div class="col-sm-12 col-md-4">
-                    <div class="visi-img">
-                        <img class="img-responsive" src="<?php echo base_url();?>assets/images/management/cropt/komisaris-utama.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <div class="visi-img">
-                        <img class="img-responsive" src="<?php echo base_url();?>assets/images/management/cropt/president-director.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <div class="visi-img">
-                        <img class="img-responsive" src="<?php echo base_url();?>assets/images/management/cropt/director.jpg" alt="">
-                    </div>
-                </div>
             </div>
         </div>
     </div>

@@ -48,10 +48,10 @@ if ($language->id == $site_lang->id):?>
     <link rel="alternate" href="<?php echo base_url() . $language->short_form . "/"; ?>" hreflang="<?php echo $language->language_code ?>"/>
 <?php endif; endforeach; endif; ?>
     <link rel="shortcut icon" type="image/png" href="<?php echo get_favicon($vsettings); ?>"/>
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/slick.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/dist/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/dist/css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/dist/css/custom.css">
     <link href="<?php echo base_url();?>assets/newfonts/hk-grotesk/style.css" type="text/css" rel="stylesheet">
 
 </head>

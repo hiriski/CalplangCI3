@@ -30,7 +30,7 @@
                 <div class="jajaran">
                     <div class="col-sm-5 section-jajaran">
                         <div class="img-holder">
-                            <img src="<?php echo base_url();?>assets/images/management/cropt/president-director.jpg" alt="">
+                            <img src="<?php echo base_url();?>assets/images/new/ridho.jpg" alt="">
                         </div>
                     </div>
                 <div class="col-sm-7 def-aligned">
@@ -38,7 +38,7 @@
                         <div class="feature-title">Muhammad Ridho Zulfadlin</div>
                             <div class="name">Direktur Utama</div>
                             <div class="feature-text desc">
-                                Lahir pada 13 November 1988. Berdomisili di Banjarmasin, Indonesia. Lulus dari Universitas Lambung Mangkurat, pakar sistem transportasi moda darat dan laut serta berhasil mengembangkan berbagai bisnis di Indonesia. Menjabat sebagai Direktur PT. Caplang Energi Sejahtera sejak 2019 dan saat ini masih menjabat sebagai Direktur PT. Baramega Indonesia Suryaalam.
+                                Lahir pada 15 Juli 1989. Berdomisili di Banjarmasin, Indonesia. Lulus dari Al-Zaytun International School & University dan berhasil mengembangkan berbagai bisnis di Indonesia. Menjabat sebagai Direktur Utama PT. Caplang Energi Sejahtera sejak 2019 dan saat ini masih menjabat sebagai Penasehat Direktur PT. Giri Jaladhi Wana.
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                 <div class="jajaran">
                     <div class="col-sm-5 section-jajaran">
                         <div class="img-holder">
-                            <img src="<?php echo base_url();?>assets/images/management/cropt/director.jpg" alt="">
+                            <img src="<?php echo base_url();?>assets/images/new/khairul.jpg" alt="">
                         </div>
                     </div>
                 <div class="col-sm-7 def-aligned">

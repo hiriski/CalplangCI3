@@ -149,38 +149,38 @@ body {
 }
 
 .slide1 {
-  background-image: url("../caplang-img/hero/4.jpg");
+  background-image: url("../../images/hero/hero-compressed.jpg");
   background-size: cover;
 }
 
 .slide2 {
-  background-image: url("../caplang-img/hero/7.jpg");
+  background-image: url("../../caplang-img/hero/7.jpg");
   background-size: cover;
   background-position: bottom;
 }
 
 .slide3 {
-  background-image: url("../caplang-img/hero/5.jpg");
+  background-image: url("../../images/hero/hero-compressed.jpg");
   background-size: cover;
 }
 
 .slide4 {
-  background-image: url("../caplang-img/hero/1.jpg");
+  background-image: url("../../caplang-img/hero/1.jpg");
   background-size: cover;
 }
 
 .slide5 {
-  background-image: url("../caplang-img/hero/4.jpg");
+  background-image: url("../../images/hero/hero-compressed.jpg");
   background-size: cover;
 }
 
 .slide6 {
-  background-image: url("../caplang-img/hero/3.jpg");
+  background-image: url("../../caplang-img/hero/3.jpg");
   background-size: cover;
 }
 
 .slide7 {
-  background-image: url("../caplang-img/hero/2.jpg");
+  background-image: url("../../caplang-img/hero/2.jpg");
   background-size: cover;
 }
 

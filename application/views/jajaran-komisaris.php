@@ -20,7 +20,6 @@
 </div>
 
 
-
 <div id="jajaran-komisaris" class="features container-fluid">
     <div class="container">
         <div class="row">
@@ -29,7 +28,7 @@
                 <div class="feature-info komisaris">
                 <div class="col-sm-12">
                     <div class="single-img text-center">
-                        <img class="img-responsive" src="<?php echo base_url();?>assets/images/management/cropt/komisaris-utama.jpg" alt="">
+                        <img class="img-responsive" src="<?php echo base_url();?>assets/images/new/adrin.jpg" alt="">
                     </div>
                 </div>
                     <div>

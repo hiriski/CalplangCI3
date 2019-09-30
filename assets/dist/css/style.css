@@ -1,4 +1,4 @@
-@import url("../fonts/hustbee.css");
+@import url("../../fonts/hustbee.css");
 /* -----------------------------------
     1 - General Styles
 ------------------------------------*/
@@ -503,26 +503,37 @@ body.fullpage {
 }
 
 #header-holder.innerpage.contact:before {
-    background-image: url("../caplang-img/contact.jpg");
+    background-image: url("../../caplang-img/contact.jpg");
     background-size: cover;
 }
 
 #header-holder.innerpage.about:before {
-    background-image: url("../caplang-img/hero/7.jpg");
-    background-position: bottom;
+    background-image: url("../../caplang-img/hero/7.jpg");
+    background-position: top;
     background-size: cover;
 }
+#header-holder.innerpage.about.visi-misi:before {
+    background-image: url("../../images/hero/hero2-compressed.jpg");
+    background-position: top;
+    background-size: cover;
+}
+#header-holder.innerpage.about.sambutan:before {
+    background-image: url("../../images/hero/bg2.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
 #header-holder.innerpage.mitrakerja:before {
-    background-image: url("../caplang-img/hero/3.jpg");
+    background-image: url("../../caplang-img/hero/3.jpg");
     background-position: bottom;
     background-size: cover;
 }
 #header-holder.innerpage.produk:before {
-    background-image: url("../caplang-img/hero/5.jpg");
+    background-image: url("../../caplang-img/hero/5.jpg");
     background-size: cover;
 }
 #header-holder.innerpage.services:before {
-    background-image: url("../caplang-img/hero/4.jpg");
+    background-image: url("../../caplang-img/hero/4.jpg");
     background-size: cover;
 }
 #header-holder.innerpage:before {
@@ -530,7 +541,7 @@ body.fullpage {
 }
 
 #header-holder.innerpage.clouds-bg:before {
-    background-image: url("../images/cloud-bg-df.png");
+    background-image: url("../../images/cloud-bg-df.png");
 }
 
 #header-holder.innerpage.lighter {
@@ -915,6 +926,10 @@ nav.navbar .nav .open > a:hover, nav.navbar .nav .open > a:focus {
     padding-top: 182px;
     padding-bottom: 140px;
     text-align: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .innerpage #top-content.st-on-top {

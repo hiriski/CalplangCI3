@@ -1,7 +1,7 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 
    
-<div id="header-holder" class="innerpage about lighter">
+<div id="header-holder" class="innerpage about sambutan lighter">
 
     <div id="top-content" class="container-fluid">
         <div class="container">
@@ -24,7 +24,7 @@
         <div class="row">
             <div class="col-sm-5 sambutan">
                 <div class="img-holder">
-                    <img class="img-responsive" src="<?php echo base_url();?>assets/images/management/cropt/president-director.jpg" alt="">
+                    <img class="img-responsive" src="<?php echo base_url();?>assets/images/logo.png" alt="">
                 </div>
             </div>
             <div class="col-sm-7 def-aligned">

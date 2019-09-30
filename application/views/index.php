@@ -99,9 +99,6 @@
                         <div class="main-heading">
                             <h2>Kata Sambutan</h2>
                         </div>
-                        <div class="cimg text-center">
-                            <img src="<?php echo base_url();?>assets/images/management/cropt/president-director.jpg" alt="">
-                        </div>
                         <p>Assalamualaikum warahmatullahi wabarakatuh</p>
                         <p>Dengan Iman,</p>
                         <p>Kami adalah PT. Caplang Energi Sejahtera, berbasis di Banjarmasin, indonesia. sangat optimis akan berhasil di depan, dengan menetapkan target yang tinggi dan sesuai dengan perkembangan ekonomi, kami pmasaercaya bahwa itu akan meningkatkan kinerja kami untuk lebih memuaskan. Dalam upaya ini, Perusahaan telah membentuk pondasi yang kuat dan siap menjadi pemenang di berbagai kompetisi bisnis.</p>
