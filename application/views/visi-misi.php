@@ -54,9 +54,31 @@
                         </ol>
                         </div>
                     </div>
-                </div>
+                </div>            
+            </div>
+        </div>
+    </div>
+</div>
 
-             
+<div id="vm-img">
+    <div class="container">
+        <div class="vm-img">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="visi-img">
+                        <img class="img-responsive" src="<?php echo base_url();?>assets/images/management/cropt/komisaris-utama.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="visi-img">
+                        <img class="img-responsive" src="<?php echo base_url();?>assets/images/management/cropt/president-director.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="visi-img">
+                        <img class="img-responsive" src="<?php echo base_url();?>assets/images/management/cropt/director.jpg" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -27,13 +27,14 @@
             <div class="main-heading"><h2><img src="<?php echo base_url();?>assets/images/logo-small.png">Jajaran Komisaris</h2></div>
             <div class="col-sm-12 def-aligned">
                 <div class="feature-info komisaris">
+                <div class="col-sm-12">
+                    <div class="single-img text-center">
+                        <img class="img-responsive" src="<?php echo base_url();?>assets/images/management/cropt/komisaris-utama.jpg" alt="">
+                    </div>
+                </div>
                     <div>
                         <div class="feature-title">Adrin Saputra Alamsjah</div>
                         <div class="name">Komisaris Utama</div>
-                    </div>
-                    <div>
-                        <div class="feature-title">Yuliarto Eko Wiguno</div>
-                        <div class="name">Komisaris</div>
                     </div>
                 </div>
             </div>

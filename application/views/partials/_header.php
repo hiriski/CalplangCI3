@@ -34,17 +34,10 @@
     <meta name="twitter:image" content="<?php echo $og_image; ?>"/>
 <?php else: ?>
     <meta property="og:image" content="<?php echo get_logo($general_settings); ?>"/>
-    <meta property="og:image:width" content="240"/>
-    <meta property="og:image:height" content="90"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:title" content="<?php echo html_escape($title); ?> - <?php echo html_escape($settings->site_title); ?>"/>
+    <meta property="og:title" content="<?php echo html_escape($settings->site_title); ?>"/>
     <meta property="og:description" content="<?php echo addslashes(html_escape($description)); ?>"/>
     <meta property="og:url" content="<?php echo base_url(); ?>"/>
-    <meta property="fb:app_id" content="<?php echo $this->general_settings->facebook_app_id; ?>"/>
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:site" content="@<?php echo html_escape($settings->application_name); ?>"/>
-    <meta name="twitter:title" content="<?php echo html_escape($title); ?> - <?php echo html_escape($settings->site_title); ?>"/>
-    <meta name="twitter:description" content="<?php echo html_escape($description); ?>"/>
 <?php endif; ?>
     <link rel="canonical" href="<?php echo current_url(); ?>"/>
 <?php if ($general_settings->multilingual_system == 1):
@@ -55,27 +48,11 @@ if ($language->id == $site_lang->id):?>
     <link rel="alternate" href="<?php echo base_url() . $language->short_form . "/"; ?>" hreflang="<?php echo $language->language_code ?>"/>
 <?php endif; endforeach; endif; ?>
     <link rel="shortcut icon" type="image/png" href="<?php echo get_favicon($vsettings); ?>"/>
-
- 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-
-<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/stylesheet/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/stylesheet/fontawesome-all.min.css">
-<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/stylesheet/slick.css">
-<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/stylesheet/style.css">
-<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/stylesheet/custom.css">
-
-
-<!-- include manual google fonts :)) -->
-<link href="<?php echo base_url();?>assets/newfonts/hk-grotesk/style.css" rel="stylesheet">
-
-<!-- New style build with SASS -->
-<link rel="stylesheet" href="<?php echo base_url();?>assets/stylesheet/custom.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/custom.css">
+    <link href="<?php echo base_url();?>assets/newfonts/hk-grotesk/style.css" type="text/css" rel="stylesheet">
 
 </head>
 <body>

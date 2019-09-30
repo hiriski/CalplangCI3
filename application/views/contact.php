@@ -37,7 +37,7 @@
                     <div class="details-holder">
                         <div class="title">Email</div>
                         <div class="details">
-                            <a href="#">commercial@caplang.com</a>
+                            <a href="#">commercial@caplang.co.id</a>
                         </div>
                     </div>
                 </div>

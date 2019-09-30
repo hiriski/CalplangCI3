@@ -67,7 +67,7 @@
         <div class="row">
             <div class="col-sm-5 sambutan">
                 <div class="img-holder">
-                    <img src="<?php echo base_url();?>assets/images/logo.png" alt="">
+                    <img class="img-responsive" src="<?php echo base_url();?>assets/images/management/cropt/president-director.jpg" alt="">
                 </div>
             </div>
             <div class="col-sm-7 def-aligned">
@@ -128,9 +128,30 @@
                         </ol>
                         </div>
                     </div>
+                </div>             
+            </div>
+        </div>
+    </div>
+</div>
+<div id="vm-img">
+    <div class="container">
+        <div class="vm-img">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="visi-img">
+                        <img class="img-responsive" src="<?php echo base_url();?>assets/images/management/cropt/komisaris-utama.jpg" alt="">
+                    </div>
                 </div>
-
-             
+                <div class="col-sm-12 col-md-4">
+                    <div class="visi-img">
+                        <img class="img-responsive" src="<?php echo base_url();?>assets/images/management/cropt/president-director.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="visi-img">
+                        <img class="img-responsive" src="<?php echo base_url();?>assets/images/management/cropt/director.jpg" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -138,21 +159,21 @@
 
 
 
+
+
 <div id="jajaran-komisaris" class="features container-fluid">
     <div class="container">
         <div class="row">
             <div class="main-heading"><h2><img src="<?php echo base_url();?>assets/images/logo-small.png">Jajaran Komisaris</h2></div>
-            <div class="col-sm-5 section-jajaran">
-                <div class="img-holder">
-                    <img src="<?php echo base_url();?>assets/images/management/cropt/komisaris-utama.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-sm-7 def-aligned">
-                <div class="feature-info">
-                <div class="feature-title">Adrin Saputra Alamsjah</div>
-                    <div class="name">Komisaris Utama</div>
-                    <div class="feature-text desc">
-                        Kelahiran pada 6 Juni 1989. Berdomisili di Jakarta, Indonesia. Berpengalaman dalam bidang perdagangan bahan bakar dan telah banyak menduduki posisi strategis di berbagai perusahaan perdagangan BBM serta berhasil dalam mengembangkan berbagai bisnis di Indonesia. Menjabat sebagai Komisaris Utama PT. Caplang Energi Sejahtera sejak 2019.
+            <div class="col-sm-12 def-aligned">
+                <div class="feature-info komisaris">
+                    <div>
+                        <div class="feature-title">Adrin Saputra Alamsjah</div>
+                        <div class="name">Komisaris Utama</div>
+                    </div>
+                    <div>
+                        <div class="feature-title">Yuliarto Eko Wiguno</div>
+                        <div class="name">Komisaris</div>
                     </div>
                 </div>
             </div>
@@ -165,43 +186,49 @@
     <div class="container">
         <div class="row">
             <div class="main-heading"><h2><img src="<?php echo base_url();?>assets/images/logo-small.png">Jajaran Direksi</h2></div>
-            <div class="jajaran">
-            <div class="col-sm-5 section-jajaran">
-                <div class="img-holder">
-                    <img src="<?php echo base_url();?>assets/images/management/cropt/president-director.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-sm-7 def-aligned">
-                <div class="feature-info">
-                <div class="feature-title">Muhammad Ridho Zulfadlin</div>
-                    <div class="name">Direktur Utama</div>
-                    <div class="feature-text desc">
-                    Lahir pada 15 Juli 1989. Berdomisili di Banjarmasin, Indonesia. Lulus dari Al-Zaytun International School & University dan berhasil mengembangkan berbagai bisnis di Indonesia. Menjabat sebagai Direktur Utama PT. Caplang Energi Sejahtera sejak 2019 dan saat ini masih menjabat sebagai Penasehat Direktur PT. Giri Jaladhi Wana.
+            
+            <div class="container">
+                <div class="jajaran">
+                    <div class="col-sm-5 section-jajaran">
+                        <div class="img-holder">
+                            <img src="<?php echo base_url();?>assets/images/management/cropt/president-director.jpg" alt="">
+                        </div>
+                    </div>
+                <div class="col-sm-7 def-aligned">
+                    <div class="feature-info">
+                        <div class="feature-title">Muhammad Ridho Zulfadlin</div>
+                            <div class="name">Direktur Utama</div>
+                            <div class="feature-text desc">
+                                Lahir pada 13 November 1988. Berdomisili di Banjarmasin, Indonesia. Lulus dari Universitas Lambung Mangkurat, pakar sistem transportasi moda darat dan laut serta berhasil mengembangkan berbagai bisnis di Indonesia. Menjabat sebagai Direktur PT. Caplang Energi Sejahtera sejak 2019 dan saat ini masih menjabat sebagai Direktur PT. Baramega Indonesia Suryaalam.
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
 
-            <div class="jajaran">
-            <div class="col-sm-5 section-jajaran">
-                <div class="img-holder">
-                    <img src="<?php echo base_url();?>assets/images/management/cropt/director.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-sm-7 def-aligned">
-                <div class="feature-info">
-                <div class="feature-title">Khairul Anshari</div>
-                    <div class="name">Direktur</div>
-                    <div class="feature-text desc">
-                    Lahir pada 13 November 1988. Berdomisili di Banjarmasin, Indonesia. Lulus dari Universitas Lambung Mangkurat, pakar sistem transportasi moda darat dan laut serta berhasil mengembangkan berbagai bisnis di Indonesia. Menjabat sebagai Direktur PT. Caplang Energi Sejahtera sejak 2019 dan saat ini masih menjabat sebagai Direktur PT. Baramega Indonesia Suryaalam.
+            <div class="container">
+                <div class="jajaran">
+                    <div class="col-sm-5 section-jajaran">
+                        <div class="img-holder">
+                            <img src="<?php echo base_url();?>assets/images/management/cropt/director.jpg" alt="">
+                        </div>
+                    </div>
+                <div class="col-sm-7 def-aligned">
+                    <div class="feature-info">
+                            <div class="feature-title">Khairul Anshari</div>
+                            <div class="name">Direktur</div>
+                            <div class="feature-text desc">
+                                Lahir pada 13 November 1988. Berdomisili di Banjarmasin, Indonesia. Lulus dari Universitas Lambung Mangkurat, pakar sistem transportasi moda darat dan laut serta berhasil mengembangkan berbagai bisnis di Indonesia. Menjabat sebagai Direktur PT. Caplang Energi Sejahtera sejak 2019 dan saat ini masih menjabat sebagai Direktur PT. Baramega Indonesia Suryaalam.
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
 
         </div>
     </div>
 </div>
+
 
 
 
